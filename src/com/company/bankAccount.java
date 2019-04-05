@@ -1,5 +1,8 @@
 package com.company;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
 /**
  * Created by dpennebacker on 2/13/17.
  */
@@ -31,6 +34,11 @@ public class bankAccount implements Comparable {
 
     public void withdraw(double wd) {
         balance = balance - wd;
+    }
+
+    public static String getTime()  {
+        LocalDateTime timee = LocalDateTime.now();
+        return timee.toString().substring(11,19);
     }
 
     public String name;

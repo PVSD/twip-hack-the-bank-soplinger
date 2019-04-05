@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/hackTheBank.iml" filepath="$PROJECT_DIR$/hackTheBank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twip-hack-the-bank-soplinger.iml" filepath="$PROJECT_DIR$/twip-hack-the-bank-soplinger.iml" />
     </modules>
   </component>
 </project>
